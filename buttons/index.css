@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#container{
+  height: 400px;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn{
+  height: 50px;
+  width: 50px;
+}

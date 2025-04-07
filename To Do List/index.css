@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main-container{
+    background: linear-gradient(rgb(233, 177, 241), rgb(248, 248, 154));
+    height: 800px;
+}
+.container{
+    padding: 20px 30px;
+}
+.add-text-element{
+    background-color: transparent;
+    padding: 20px 30px ;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+#textElement{
+    height: 40px;
+    width: 55vw;
+    border-radius: 5px ;
+    border: none;
+    padding: 0px 7px;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px rgba(55, 55, 54, 0.568),
+    0px 0px 1px 2px rgba(61, 61, 61, 0.209),
+    inset 1px 2px 3px rgba(178, 178, 176, 0.179),
+    inset 0px 0px 2px 3px rgba(215, 215, 212, 0.153);
+}
+.add{
+    height: 35px;
+    width: 60px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2px;
+    box-shadow: 1px 1px 3px rgba(55, 55, 54, 0.568),
+    0px 0px 1px 2px rgba(61, 61, 61, 0.209),
+    inset 1px 2px 3px rgba(178, 178, 176, 0.179),
+    inset 0px 0px 2px 3px rgba(215, 215, 212, 0.153);
+}
+.containt-box{
+    margin-top: 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    overflow: auto; 
+    box-shadow: 1px 1px 3px rgba(55, 55, 54, 0.568),
+    0px 0px 1px 2px rgba(61, 61, 61, 0.209),
+    inset 1px 2px 3px rgba(178, 178, 176, 0.179),
+    inset 0px 0px 2px 3px rgba(215, 215, 212, 0.153); 
+}
+.ElementBox{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    gap: 10px;
+}
+.containtElement{
+    height: 40px;
+    min-width: 55vw;
+    padding: 0px 7px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px ;
+    font-size: 20px;
+    background-color: transparent;
+    box-shadow: 1px 1px 3px rgba(55, 55, 54, 0.568),
+    0px 0px 1px 2px rgba(61, 61, 61, 0.209),
+    inset 1px 2px 3px rgba(178, 178, 176, 0.179),
+    inset 0px 0px 2px 3px rgba(215, 215, 212, 0.153);
+}
+.delete{
+    height: 35px;
+    width: 60px;
+    margin-top: 2px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(55, 55, 54, 0.568),
+    0px 0px 1px 2px rgba(61, 61, 61, 0.209),
+    inset 1px 2px 3px rgba(178, 178, 176, 0.179),
+    inset 0px 0px 2px 3px rgba(215, 215, 212, 0.153);
+    
+}

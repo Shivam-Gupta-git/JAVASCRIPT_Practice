@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    height: 700px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container .main-box{
+    height: auto;
+    width: 350px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 5px 10px rgba(128, 128, 128, 0.613);
+}
+#container .main-box h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+#container .main-box input{
+    width: 230px;
+    margin-top: 10px;
+    height: 30px;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 166, 166);
+    box-shadow: 2px 3px 5px rgba(149, 147, 147, 0.337),
+                0px 0px 2px 3px rgba(130, 129, 129, 0.182),
+                 inset 1px 2px 5px rgba(128, 128, 128, 0.557),
+                 inset 0px 0px 9px 5px rgba(128, 128, 128, 0.278);
+                
+}
+#qr-button{
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(245, 243, 241);
+}
+#qr-button:hover{
+    background-color: black;
+    color: white;
+    transition: all .5s;
+}
+#qr-image{
+    margin-top: 20px;
+    border-radius: 10px;
+}
