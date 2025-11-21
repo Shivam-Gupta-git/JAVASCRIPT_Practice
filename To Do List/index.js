@@ -22,3 +22,5 @@ addTextElement.addEventListener('click',()=>{
         textElement.value = '';
     }
 })
+
+// Take Input data .....
